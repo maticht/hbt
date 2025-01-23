@@ -4,8 +4,8 @@ import './style.css';
 import {useNavigate} from "react-router-dom";
 
 const QuestionScreen = () => {
-    const [showMotka, setShowMotka] = useState(true);
-    const [motkaValue, setMotkaValue] = useState('hello');
+    const [showMotka, setShowMotka] = useState(false);
+    const [motkaValue, setMotkaValue] = useState(false);
     const navigate = useNavigate();
 
     const handleAnswer = (correct) => {

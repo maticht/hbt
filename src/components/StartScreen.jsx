@@ -8,7 +8,7 @@ const StartScreen = () => {
     return (
         <div className={'main'}>
             <h1 className={'titleText'}>Вы готовы начать?</h1>
-            <button className={'check-button'} onClick={() => navigate('/question')} style={{ padding: '10px 20px', fontSize: '16px' }}>
+            <button className={'check-button'} onClick={() => navigate('/radioactivity')}>
                 Начать
             </button>
         </div>

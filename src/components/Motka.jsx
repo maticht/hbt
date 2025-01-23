@@ -24,7 +24,7 @@ const Motka = ({ value, onClose }) => {
         },
         {
             key: 'rules',
-            text: 'Ну, на самом деле каждый может назваться Танюшей, а ты докажи, что ты действительно та самая!',
+            text: 'Ну, на самом деле каждый может назваться Танюсичкой, а ты докажи, что ты действительно та самая!',
             image: '/img/info.png',
             buttonText: 'Начать игру!',
         },
@@ -45,6 +45,30 @@ const Motka = ({ value, onClose }) => {
             text: 'Всё ложь, тебе 22! Меня не обманешь!',
             image: '/img/info.png',
             buttonText: 'Завершить',
+        },
+        {
+            key: 'yesZodiac',
+            text: 'Оо, володей значит! Добро пожаловать, мы вам всегда рады!',
+            image: '/img/yes.png',
+            buttonText: 'Продолжить',
+        },
+        {
+            key: 'noZodiac',
+            text: 'Сожалею, это закрытый клуб. Только для водолеев!',
+            image: '/img/no.png',
+            buttonText: 'Вернуться',
+        },
+        {
+            key: 'yesRadioactivity',
+            text: 'Ого, это правильный ответ, умняша! Продолжим?',
+            image: '/img/yes.png',
+            buttonText: 'Продолжить',
+        },
+        {
+            key: 'noRadioactivity',
+            text: 'Очень близко, но нет( Попробуй ка ёщё раз!',
+            image: '/img/no.png',
+            buttonText: 'Вернуться',
         },
     ];
 
