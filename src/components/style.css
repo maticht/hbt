@@ -47,8 +47,9 @@ code {
     font-size: 19px !important;
     font-weight: 600;
     font-family: "Sofia Sans", sans-serif;
-    border: 2px solid #919191;
-    background-color: rgba(98, 98, 98, 0.6);
+    border: 2px solid #6e6e6e;
+    border-radius: 10px;
+    background-color: rgba(98, 98, 98, 0.5);
     backdrop-filter: blur(4px);
     color: #e8e8e8;
     cursor: pointer;
@@ -83,7 +84,7 @@ code {
     font-weight: 600;
     color: #e8e8e8;
     border: none;
-
+    border-radius: 5px;
     outline: none;
     box-sizing: border-box;
     transition: background-color 0.2s ease;
