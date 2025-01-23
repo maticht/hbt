@@ -19,7 +19,11 @@ const YearsScreen = () => {
     };
 
     const handleMotkaClose = () => {
-        navigate('/final');
+        if (motkaValue === 'yesYears') {
+            navigate('/final');
+        } else if (motkaValue === 'noYears') {
+        }
+
         setShowMotka(false);
     };
 

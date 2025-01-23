@@ -44,7 +44,7 @@ const Motka = ({ value, onClose }) => {
             key: 'noYears',
             text: 'Всё ложь, тебе 22! Меня не обманешь!',
             image: '/img/info.png',
-            buttonText: 'Завершить',
+            buttonText: 'Вернуться',
         },
         {
             key: 'yesZodiac',

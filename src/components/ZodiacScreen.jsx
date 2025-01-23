@@ -22,7 +22,6 @@ const ZodiacScreen = () => {
         if (motkaValue === 'yesZodiac') {
             navigate('/question');
         } else if (motkaValue === 'noZodiac') {
-            navigate('/');
         }
         setShowMotka(false);
     };

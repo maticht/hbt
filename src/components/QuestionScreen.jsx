@@ -22,7 +22,6 @@ const QuestionScreen = () => {
         if (motkaValue === 'yes') {
             navigate('/sudoku');
         } else if (motkaValue === 'no') {
-            navigate('/');
         }
         setShowMotka(false);
     };

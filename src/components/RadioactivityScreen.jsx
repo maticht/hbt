@@ -22,7 +22,6 @@ const RadioactivityScreen = () => {
         if (motkaValue === 'yesRadioactivity') {
             navigate('/zodiac');
         } else if (motkaValue === 'noRadioactivity') {
-            navigate('/');
         }
         setShowMotka(false);
     };
