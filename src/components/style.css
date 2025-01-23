@@ -13,7 +13,7 @@ html, body {
 }
 body {
     font-family: "Sofia Sans", serif;
-    background-color: #ffffff;
+    background-color: black;
 }
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -83,6 +83,7 @@ code {
     font-weight: 600;
     color: #e8e8e8;
     border: none;
+
     outline: none;
     box-sizing: border-box;
     transition: background-color 0.2s ease;

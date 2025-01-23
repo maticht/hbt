@@ -80,6 +80,8 @@ const SudokuScreen = () => {
                                     type="text"
                                     value={cell}
                                     maxLength={1}
+                                    inputMode="numeric"
+                                    pattern="[0-9]*"
                                     onChange={(e) => handleInputChange(rowIndex, colIndex, e.target.value)}
                                     className={`sudoku-cell ${isFixed ? 'fixed' : 'empty'} ${
                                         isHighlighted ? 'highlighted' : ''
