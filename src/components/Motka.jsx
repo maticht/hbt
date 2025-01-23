@@ -38,7 +38,7 @@ const Motka = ({ value, onClose }) => {
         },
         {
             key: 'yesYears',
-            text: 'Да-да, все так, моя именинница)',
+            text: 'Да-да, все так, именинница)',
             image: '/img/yes.png',
             buttonText: 'Завершить',
         },
